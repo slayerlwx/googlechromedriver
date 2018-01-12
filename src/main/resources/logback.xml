@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <configuration>
-    <substitutionProperty name="trackmorelog.base" value="G:/projects/trackmore/logs" />
+    <substitutionProperty name="trackmorelog.base" value="F:\Gitrepository\GoogleChromedriver\log" />
     <!--<substitutionProperty name="trackmorelog.base" value="/opt/tomcat/logs" />-->
 	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
       <encoder charset="UTF-8">

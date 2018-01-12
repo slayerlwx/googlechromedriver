@@ -1,0 +1,29 @@
+2018-01-12 11:39:22.432 [main] INFO  DemochromedriverApplication:48 - Starting DemochromedriverApplication on Slayer with PID 19340 (F:\Gitrepository\GoogleChromedriver\target\classes started by Administrator in F:\Gitrepository\GoogleChromedriver)
+2018-01-12 11:39:22.435 [main] INFO  DemochromedriverApplication:593 - No active profile set, falling back to default profiles: default
+2018-01-12 11:39:22.572 [main] INFO  AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15c43bd9: startup date [Fri Jan 12 11:39:22 CST 2018]; root of context hierarchy
+2018-01-12 11:39:22.813 [background-preinit] INFO  Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+2018-01-12 11:39:24.050 [main] INFO  TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2018-01-12 11:39:24.060 [main] INFO  StandardService:179 - Starting service [Tomcat]
+2018-01-12 11:39:24.061 [main] INFO  StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-12 11:39:24.165 [localhost-startStop-1] INFO  [/]:179 - Initializing Spring embedded WebApplicationContext
+2018-01-12 11:39:24.165 [localhost-startStop-1] INFO  ContextLoader:276 - Root WebApplicationContext: initialization completed in 1593 ms
+2018-01-12 11:39:24.289 [localhost-startStop-1] INFO  ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-12 11:39:24.293 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-12 11:39:24.293 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-12 11:39:24.293 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-12 11:39:24.293 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-12 11:39:24.614 [main] INFO  RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15c43bd9: startup date [Fri Jan 12 11:39:22 CST 2018]; root of context hierarchy
+2018-01-12 11:39:24.656 [main] INFO  RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-12 11:39:24.657 [main] INFO  RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-12 11:39:24.677 [main] INFO  SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-12 11:39:24.678 [main] INFO  SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-12 11:39:24.702 [main] INFO  SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-12 11:39:24.825 [main] INFO  AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-01-12 11:39:24.843 [main] INFO  Http11NioProtocol:179 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-01-12 11:39:24.850 [main] INFO  Http11NioProtocol:179 - Starting ProtocolHandler ["http-nio-8080"]
+2018-01-12 11:39:24.861 [main] INFO  NioSelectorPool:179 - Using a shared selector for servlet write/read
+2018-01-12 11:39:24.876 [main] INFO  TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2018-01-12 11:39:24.879 [main] INFO  DemochromedriverApplication:57 - Started DemochromedriverApplication in 2.768 seconds (JVM running for 3.42)
+2018-01-12 11:39:29.469 [http-nio-8080-exec-1] INFO  [/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-12 11:39:29.469 [http-nio-8080-exec-1] INFO  DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-12 11:39:29.500 [http-nio-8080-exec-1] INFO  DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
